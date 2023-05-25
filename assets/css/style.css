@@ -2301,12 +2301,12 @@ table tbody tr td {
 }
 /* Header With Top Bar */
 .header-topbar {
-  height: 140px;
+  height: 100px;
   z-index: 9;
   position: relative;
 }
 .header-topbar .navbar {
-  top: 50px;
+  top: 0px;
 }
 .header-topbar .navbar.affix {
   top: 0;
@@ -3744,68 +3744,6 @@ ul.dropdown-menu > li.has-dropdown > a:before {
     padding-left: 16px;
     padding-right: 16px;
   }
-}
-/* Top Bar */
-.top-bar {
-  height: 50px;
-  background-color: transparent;
-  overflow: hidden;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-.top-bar .top--contact li {
-  margin-right: 19px;
-  padding-right: 19px;
-  border-right: 1px solid rgba(255, 255, 255, 0.2);
-}
-.top-bar .top--contact li:last-child {
-  margin-right: 0;
-  border-right: none;
-  padding-right: 0;
-}
-.top-bar .top--contact {
-  font-family: 'Open Sans', sans-serif;
-  line-height: 50px;
-  color: #ffffff;
-  font-size: 12px;
-  font-weight: 400;
-}
-.top-bar .top--contact i {
-  margin-right: 11px;
-}
-.top-bar .top--login {
-  color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 50px;
-  padding-right: 20px;
-}
-.top-bar .top--login i {
-  margin-right: 10px;
-}
-.top-bar .top--login a {
-  color: #ffffff;
-}
-.top-bar .top--login a:hover {
-  color: #bb8c4b;
-}
-.top-bar .top--social a {
-  border-left: 1px solid rgba(255, 255, 255, 0.2);
-}
-.top-bar .top--social a:last-of-type {
-  border-right: 1px solid rgba(255, 255, 255, 0.2);
-}
-.top-bar .top--social a {
-  display: inline-block;
-  width: 48px;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 50px;
-}
-.top-bar .top--social a:hover {
-  color: #ffffff;
 }
 /*------------------------------------*\
     #Hero
