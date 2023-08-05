@@ -79,7 +79,7 @@ body {
   text-shadow: none;
 }
 ::selection {
-  background-color: #bb8c4b;
+  background-color: #7b4bbb;
   color: #ffffff;
   text-shadow: none;
 }
@@ -88,19 +88,19 @@ a {
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  color: #bb8c4b;
+  color: #7b4bbb;
 }
 a:hover {
-  color: #99713a;
+  color: #793a99;
   text-decoration: none;
 }
 a:focus {
-  color: #99713a;
+  color: #784bbb;
   outline: none;
   text-decoration: none;
 }
 a:active {
-  color: #99713a;
+  color: #784bbb;
   outline: none;
   text-decoration: none;
 }
@@ -291,7 +291,7 @@ p {
 }
 .higlighted-style3 {
   background-color: #f8f8f8;
-  color: #bb8c4b;
+  color: #8c4bbb;
   padding: 5px 0;
 }
 /*------------------------------------*\
@@ -301,7 +301,7 @@ p {
   color: #444444 !important;
 }
 .color-theme {
-  color: #bb8c4b !important;
+  color: #8c4bbb !important;
 }
 .color-white {
   color: #ffffff !important;
@@ -973,15 +973,15 @@ section {
 }
 /* Button Primary */
 .btn--primary {
-  background-color: #bb8c4b;
+  background-color: #784bbb;
   color: #ffffff;
   border: 1px solid transparent;
 }
 .btn--primary:active,
 .btn--primary:focus,
 .btn--primary:hover {
-  background-color: rgba(187, 140, 75, 0.8);
-  border-color: rgba(187, 140, 75, 0.8);
+  background-color: rgba(125, 75, 187, 0.8);
+  border-color: rgba(103, 75, 187, 0.8);
   color: #ffffff;
 }
 /* Button Secondary*/
@@ -1006,9 +1006,22 @@ section {
 .btn--white:active,
 .btn--white:focus,
 .btn--white:hover {
-  background-color: #bb8c4b;
+  background-color: #784bbb;
   color: #ffffff;
-  border-color: #bb8c4b;
+  border-color: #784bbb;
+}
+/* Button Black */
+.btn--black {
+  background-color: #444444;
+  color: #444444;
+  border: 1px solid #444444;
+}
+.btn--black:active,
+.btn--black:focus,
+.btn--black:hover {
+  background-color: #784bbb;
+  color: #ffffff;
+  border-color: #784bbb;
 }
 /* Button Block */
 .btn--block {
@@ -1748,7 +1761,7 @@ ul.dot-list li i {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 .heading .divider--line {
   margin-top: 36px;
@@ -3285,13 +3298,28 @@ ul.dropdown-menu > li.has-dropdown > a:before {
 .top-bar .address {
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   line-height: 50px;
-  padding-right: 20px;
+  padding-right: 5px;
+  padding-left: 8px;
 }
 
 .top-bar .address i {
+  margin-right: 5px;
+}
+
+.top-bar .phone {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 50px;
+  padding-left: 5px;
+  padding-right: 20px;
+}
+
+.top-bar .phone i {
   margin-right: 10px;
 }
 
