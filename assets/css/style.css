@@ -3440,6 +3440,15 @@ ul.dropdown-menu > li.has-dropdown > a:before {
 .team {
   padding-bottom: 50px;
 }
+.team .row1{
+  display: flex;
+  justify-content: center;
+}
+.team .row2{
+  display: flex;
+  justify-content: center;
+
+}
 .member {
   text-align: center;
   overflow: hidden;
@@ -3449,6 +3458,10 @@ ul.dropdown-menu > li.has-dropdown > a:before {
   position: relative;
   margin-bottom: 30px;
   overflow: hidden;
+}
+.member-img img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
 }
 .member .member-img img {
   /* max-width: 100%;
@@ -3526,6 +3539,24 @@ ul.dropdown-menu > li.has-dropdown > a:before {
 .team .container-fluid [class*="col-"] {
   padding-left: 0 !important;
   padding-right: 0 !important;
+}
+@media (max-width: 767px) {
+  .team .row1 {
+    display: block;
+  }
+  .team .row2 {
+    display: block;
+  }
+  .team .col-xs-12, 
+  .team .col-sm-4 {
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .member {
+    text-align: center;
+  }
 }
 
 /*------------------------------------*\
